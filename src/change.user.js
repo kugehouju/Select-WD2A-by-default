@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Select WD2A by default
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  時間割ページにてドロップダウンメニューの初期値をWD2Aに設定します。
 // @author       Houju Kuge
 // @match        https://click.ecc.ac.jp/ecc/rtakimoto/schedule/
