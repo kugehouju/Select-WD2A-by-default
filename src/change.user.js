@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Select WD2A by default
-// @namespace    https://github.com/kugehouju/Change-to-WD2A
+// @namespace    https://github.com/kugehouju/src/Change-to-WD2A
 // @version      0.1
 // @description  Select WD2A by default in the dropdown
 // @author       Houju Kuge
