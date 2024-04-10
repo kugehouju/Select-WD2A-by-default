@@ -22,7 +22,7 @@
     document.body.appendChild(cursorStalker);
 
     const targetX = 0, targetY = 0;
-    const ease = 0.05; // 遅延効果の大きさを調整します
+    const ease = 0.05; // カーソルストーカーの遅延速度を設定
 
     function animate() {
         const dx = targetX - cursorStalker.offsetLeft;
@@ -41,20 +41,19 @@
 
     animate();
 
-    // Select WD2A by default in the dropdown with id 'js-classNameList'
+    // ドロップダウンメニューのデフォルトをWD2Aに設定
     window.onload = function() {
         const selectElement = document.getElementById('js-classNameList');
         selectElement.value = 'WD2A';
         selectElement.dispatchEvent(new Event('change'));
-document.querySelector('header').remove()
+        document.querySelector('header').remove()
         document.querySelectorAll('.scheduleTable__td, p ,span , h1, h2, h3, th, td').forEach((a) => {
             a.style.color = ("white")
         })
         document.body.style.background = "url('https://cdn.discordapp.com/attachments/1217178760218935336/1227125287985086474/HONDA_CORE_wallpaper.png?ex=6627447b&is=6614cf7b&hm=d63173ebb90b83c31be377c01b34da42003fb8c5665a759dd358698571b1d4ee&') no-repeat red center / cover"
     };
 
-
-       // ここに置き換えたい文字列を設定します
+    // ここに置き換えたい文字列を設定します
     const oldText = "©2020 ECC computer Ogura";
     const newText = "©ここしれっと変えてもバレへんやろ";
 
