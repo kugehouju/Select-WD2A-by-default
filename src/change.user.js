@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Select WD2A by default
-// @namespace    https://github.com/kugehouju/src/Change-to-WD2A
+// @namespace    https://github.com/kugehouju/Select-WD2A-by-default/blob/main/src/change.user.js
 // @version      0.2
 // @description  Select WD2A by default in the dropdown
 // @author       Houju Kuge
 // @match        https://click.ecc.ac.jp/ecc/rtakimoto/schedule/
 // @grant        none
-// @updateURL    https://github.com/kugehouju/Change-to-WD2A/src/change.user.js
-// @downloadURL  https://github.com/kugehouju/Change-to-WD2A/src/change.user.js
+// @updateURL    https://github.com/kugehouju/Select-WD2A-by-default/blob/main/src/change.user.js
+// @downloadURL  https://github.com/kugehouju/Select-WD2A-by-default/blob/main/src/change.user.js
 // @supportURL   none
 // ==/UserScript==
 
