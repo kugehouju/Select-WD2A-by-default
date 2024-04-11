@@ -5,6 +5,7 @@
 // @description  時間割ページにてドロップダウンメニューの初期値をWD2Aに設定します。
 // @author       Houju Kuge
 // @match        https://click.ecc.ac.jp/ecc/rtakimoto/schedule/
+// @match        https://click.ecc.ac.jp/ecc/rtakimoto/schedule/index.php
 // @icon         https://cdn.discordapp.com/attachments/1217178760218935336/1227125288564035615/7f3f7985e9f1ec5a.png?ex=6627447b&is=6614cf7b&hm=8f031607aed499a6710df95b6b2a6fb84fcb1b99c541974ea4f1213e82b77edc&
 // @updateURL    https://github.com/kugehouju/Select-WD2A-by-default/raw/main/src/change.user.js
 // @downloadURL  https://github.com/kugehouju/Select-WD2A-by-default/raw/main/src/change.user.js
