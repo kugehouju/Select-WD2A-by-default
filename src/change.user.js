@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Select WD2A by default
 // @namespace    http://tampermonkey.net/
-// @version      1.8
+// @version      1.9
 // @description  時間割ページにてドロップダウンメニューの初期値をWD2Aに設定します。
 // @author       Houju Kuge
 // @match        https://click.ecc.ac.jp/ecc/rtakimoto/schedule/
 // @match        https://click.ecc.ac.jp/ecc/rtakimoto/schedule/index.php
-// @icon         https://github.com/kugehouju/images/blob/main/glitterHonda.png?raw=true
+// @icon         https://raw.githubusercontent.com/kugehouju/images/main/glitterHonda.png?token=GHSAT0AAAAAACRBJ43STIEZFNCHCL7H6A3QZRIZH5A
 // @updateURL    https://github.com/kugehouju/Select-WD2A-by-default/raw/main/src/change.user.js
 // @downloadURL  https://github.com/kugehouju/Select-WD2A-by-default/raw/main/src/change.user.js
 // @grant        none
@@ -15,7 +15,7 @@
 (function() {
     'use strict';
     // カーソルストーカーの設定
-    var imageUrl = "https://github.com/kugehouju/images/blob/main/glitterHonda.png?raw=true";
+    var imageUrl = "https://raw.githubusercontent.com/kugehouju/images/main/glitterHonda.png?token=GHSAT0AAAAAACRBJ43STIEZFNCHCL7H6A3QZRIZH5A";
     var cursorStalker = document.createElement('img');
     cursorStalker.src = imageUrl;
     cursorStalker.style.position = 'absolute';
@@ -46,7 +46,7 @@
         selectElement.dispatchEvent(new Event('change'));
         document.querySelector('header').remove()
 
-        document.body.style.background = "url('https://github.com/kugehouju/images/blob/main/scheduleBg.png?raw=true') no-repeat red center / cover"
+        document.body.style.background = "url('https://raw.githubusercontent.com/kugehouju/images/main/scheduleBg.png?token=GHSAT0AAAAAACRBJ43SQDUSGIPATHMPHS6OZRIZIFA') no-repeat red center / cover"
         document.querySelectorAll('.scheduleTable__td, p ,span , h1, h2, h3, th, td').forEach((a) => {
             a.style.color = ("white")
         })
